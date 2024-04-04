@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+.footer-wrapper .right-footer ul:first-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.right-footer ul li a{
+    color: black;
+
+}
+
+.left-footer ul li a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
